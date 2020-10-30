@@ -61,9 +61,7 @@ img{
     padding: 0.9em 0.66em;
 }
 .menu a:hover{
-    background-color: var(--red);
-    text-shadow: 0 0 20px #fff;
-    text-decoration: underline;
+    color: var(--red)
 }
 #menu-bars{
     display: none;
@@ -108,8 +106,8 @@ img{
     text-decoration: none;
     text-transform: uppercase;
     background-color: var(--red);
-    padding: 0.5em 1.2em;
-    border-radius: 0.75em;
+    padding: 0.3em 1.7em;
+    border-radius: 0.35em;
     margin-top: 2em;
 }
 .games{
@@ -178,49 +176,45 @@ img{
 }
 
 .text-about p {
-    font-size: 1.25em;
+    font-size: 1.15em
 }
 
 .content-about img {
-    max-width: 31.875em;
+    max-width: 30.875em;
 }
-
-.games{
-    /* background-color: var(--red); */
+.games-aovivo:after{
+    content:'';
+    border:solid 0.5px #fff;
+    height: 3em;
+    margin-left: 6em;
 }
-
-.games-aovivo{
+.games-aovivo, .games-embreve{
     display: flex;
-    color: #fff;
-    font-size: 1.875em;
-    justify-content: space;
-}
-
-.games-aovivo h2{
+    color:#fff;
+    align-items: center;
+    font-size: 1.65em;/*30px*/
+    justify-content: space-between;
 
 }
-
-.partidas{
+.partida{
     width: 9.5em;
     display: flex;
     align-items: center;
+    /* background-color: red; */
     justify-content: space-between;
+    margin-left: 1em;
 }
-
-.Time1, .Time2{
+.time1, .time2{
     display: flex;
     align-items: center;
 }
-
-.partidas img{
+.partida img{
     width: 1.8em;
 }
-
-.Time1 img{
+.time1 img{
     margin-left: 0.5em;
 }
-
-.Time2 img{
+.time2 img{
     margin-right: 0.5em;
 }
 
