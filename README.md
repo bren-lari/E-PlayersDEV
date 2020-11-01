@@ -1,2 +1,2 @@
 # E-PlayersDEV
-Esse Projeto E-players, tem como finalidade um site de jogos, desenvolvido por nós,junto com a ajuda dos nossos professores e alunos do SENAI Informática.
+Esse Projeto E-Players, tem como principal objetivo, atuar como um site de jogos. Foi desenvolvido por nós alunos do SENAI Informática junto com os professores.
